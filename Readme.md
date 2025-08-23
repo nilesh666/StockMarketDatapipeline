@@ -30,11 +30,11 @@ Example: ![DagLog screenshot](airflow.png)
 
 9. After the successful run open PgAdmin (PostgresDB for local) and create a server with the following and click save:
    
-   **Name** : Airflow (In general)
-   **Host/Connection address** : localhost
-   **Port** : 5432
-   **Username** : airflow
-   **Password**: airflow
+   - **Name** : Airflow (In general)
+   - **Host/Connection address** : localhost
+   - **Port** : 5432
+   - **Username** : airflow
+   - **Password**: airflow
 
 10. Once the server starts you can find a table "alpha_vantage_daily" in Airflow->database->schema->Tables
 
